@@ -1,0 +1,380 @@
+*{
+  padding: 0px;
+  margin:0px ;
+}
+.navbar{
+  background: url(./jpg\(9\));
+  height: 80vh;
+  background-size: cover;
+  background-position: center;
+  align-items: center;
+}
+li{
+  list-style: none;
+}
+a{
+  text-decoration: none;
+}
+html{
+  scroll-behavior: smooth;
+transition: 3s;
+}
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  padding: 30px;
+  background-color: dimgray;
+}
+.navbar .list ul{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 200px;
+  padding-bottom: 400px;
+
+
+}
+.navbar .list a{
+  color: aliceblue;
+  font-size: 30px;
+  
+}
+.navbar .logo{
+  color: aliceblue;
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 400px;
+  
+}
+.cars{
+  padding: 50px;
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+
+}
+#myimag:hover {
+  filter: brightness(1.2); /* Adjust brightness as needed */
+  transform: scale(1.05); /* Optional: Slightly enlarge the image */
+}
+.models{
+  margin-top: 20px;
+  box-shadow: 10px 10px  10px 2px rgb(37, 80, 155);
+  width: 300px;
+  height: 400px;
+}
+
+.modelse{
+  margin-top: 20px;
+  box-shadow: 10px 10px  10px 2px rgb(113, 86, 109);
+  width: 300px;
+  height: 400px;
+}
+.modelsf{
+  margin-top: 20px;
+  box-shadow: 10px 10px  10px 2px rgb(218, 206, 216);
+  width: 300px;
+  height: 400px;
+  }
+  .modelsh{
+    margin-top: 20px;
+    box-shadow: 10px 10px  10px 2px rgb(97, 96, 97);
+    width: 300px;
+    height: 400px;
+    }
+.modelsa{
+  margin-top: 20px;
+  box-shadow: 10px 10px  10px 2px rgb(5, 64, 38);
+  width: 300px;
+  height: 400px;
+}
+.modelsi{
+  margin-top: 20px;
+  box-shadow: 10px 10px 10px 2px black;
+  width: 300px;
+  height: 400px;
+}
+.modelsz{
+  margin-top: 20px;
+  box-shadow: 10px 10px 10px 2px rgb(120, 23, 96);
+  width: 300px;
+  height: 400px;
+}
+.modelsc{
+  margin-top: 20px;
+  box-shadow: 10px 10px 10px 2px rgb(93, 15, 15);
+  width: 300px;
+  height: 400px;
+}
+.models .top{
+  background-image: url(./DREAM\ CAR.jpg);
+  height: 76%;
+  background-position: center;
+  background-size: cover;
+  border-radius: 20px;
+}
+.modelsc .top{
+  background-image: url(./B8tywPW-.jpg);
+  height: 76%;
+  background-position: center;
+  background-size: cover;
+  border-radius: 20px;
+}
+
+.modelsh .top{
+  background-image: url(./8vFOM_t2.jpg);
+  height: 76%;
+  background-position: center;
+  background-size: cover;
+  border-radius: 20px;
+}
+.modelsz .top{
+  background-image: url(./jpg\(16\));
+  height: 76%;
+  background-position: center;
+  background-size: cover;
+  border-radius: 20px;
+}
+
+
+.modelsi .top{
+  background-image: url(./drift\ car\ rich\ life\ luxury\ car\ brands.jpg);
+  height: 76%;
+  background-position: center;
+  background-size: cover;
+  border-radius: 20px;
+}
+.modelse .top{
+  background-image: url(./Baby\ Shark_\ CLA\ 45\ S\ AMG\ 4MATIC+\ 421\ HP\ 2_0-L\ 4-Cyl\ 0-100\ km_h\ 4\ sec\ 🦈.jpg);
+  height: 76%;
+  background-position: center;
+  background-size: cover;
+  border-radius: 20px;
+  
+}
+.modelsa .top{
+  background-image: url(./jpg\(11\));
+  height: 76%;
+  background-position: center;
+  background-size: cover;
+  border-radius: 20px;
+  
+}
+.modelsf .top{
+  background-image: url(./Mercedes-Benz\ a\ dévoilé\ jeudi\ le\ coupé….jpg);
+  height: 76%;
+  background-position: center;
+  background-size: cover;
+  border-radius: 20px;
+  
+}
+.modelsc .bottom{
+  margin-top: 10px;
+  padding-left: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0px;
+  
+}
+.modelsh .bottom{
+  margin-top: 10px;
+  padding-left: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0px;
+  
+}
+.models .bottom{
+  margin-top: 10px;
+  padding-left: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0px;
+  
+}
+
+
+.modelsf .bottom{
+  margin-top: 10px;
+  padding-left: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0px;
+  
+}
+.modelse .bottom{
+  margin-top: 10px;
+  padding-left: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0px;
+}
+.modelsi .bottom{
+  margin-top: 10px;
+  padding-left: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0px;
+}
+
+.modelsa .bottom{
+  margin-top: 4px;
+  margin-bottom: 4px;
+  padding-left: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 20px;
+  align-items: center;
+  gap: 0px;
+}
+.modelsz .bottom{
+  margin-top: 4px;
+  margin-bottom: 4px;
+  padding-left: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 20px;
+  align-items: center;
+  gap: 0px;
+}
+
+.modelse .bottom a{
+  background-color: grey;
+  padding: 0px;
+  width: 40px;
+  color: azure;
+}
+.models .bottom a{
+  background-color: grey;
+  padding: 0px;
+  width: 40px;
+  color: azure;
+}
+.modelsh .bottom a{
+  background-color: grey;
+  padding: 0px;
+  width: 40px;
+  color: azure;
+}
+.models .bottom a{
+  background-color: grey;
+  padding: 0px;
+  width: 40px;
+  color: azure;
+}
+.modelsz .bottom a{
+  background-color: grey;
+  padding: 0px;
+  width: 40px;
+  color: azure;
+}
+.modelsi .bottom a{
+  background-color: grey;
+  padding: 0px;
+  width: 40px;
+  color: azure;
+}
+.modelsf .bottom a{
+  background-color: grey;
+  padding: 0px;
+  width: 40px;
+  color: azure;
+}
+.modelsc .bottom a{
+  background-color: grey;
+  padding: 0px;
+  width: 40px;
+  color: azure;
+}
+.modelsa .bottom a{
+  background-color: grey;
+  padding: 0px;
+  width: 40px;
+  color: azure;
+}
+h1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+  margin: 20px;
+}
+
+#button {
+  padding: 4px;
+border-radius: 10px;
+font-size: medium;
+text-align: center;
+
+}
+#button:hover {
+  filter: brightness(1.2); /* Adjust brightness as needed */
+  transform: scale(1.05); /* Optional: Slightly enlarge the image */
+}
+#list:hover {
+  filter: brightness(1.2); /* Adjust brightness as needed */
+  transform: scale(1.05); /* Optional: Slightly enlarge the image */
+}
+.center{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50vh;
+  padding: 20px;
+  background: url(./_-removebg-preview.png);
+  background-color: black;
+  background-position: center;
+  background-size: 500px;
+
+
+
+}
+.center .left form{
+  display: flex;
+  flex-direction:column;
+  align-items: center;
+  gap:25px;
+  background-color:grey;
+  padding: 20px 50px;
+  width:250px;
+  height: 150px;
+  border-radius: 10px;
+
+}
+.center input{
+  width: 190px;
+  background-color:transparent;
+  border: none;
+  border-bottom: 1px solid black;
+  padding-bottom: 5px;
+  color: black;
+
+ }
+  h1{
+    color: black;
+
+  }
+  .center .raser{
+    background-color: black;
+    color: azure;
+    padding-top: 5px;
+    border-radius: 10px;
+
+  }
+  .center input::placeholder{
+    color:black;
+
+  }
